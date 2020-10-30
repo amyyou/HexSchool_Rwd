@@ -81,8 +81,8 @@ body{
 /*導覽列*/
 
 .menu_desktop{
-	width: 100%;
-	background: rgba(0,0,0,0.75);
+/*	width: 100%;
+*/	background: rgba(0,0,0,0.75);
     display: flex;
 	justify-content: space-between;
 }
@@ -372,11 +372,12 @@ body{
  @media (max-width: 568px) {
 
  	.footer{
-	height: 420px;
+	height: 470px;
     }
+
 	.footer_about{
 	float: none;
-		width: 90%;
+	width: 98%;
    }
 
    .footer_about p{
@@ -385,7 +386,7 @@ body{
 
    .footer_contact{
 	float: none;
-	width: 90%;
+	width: 98%;
    }
 
    .footer_contact h2{
@@ -522,7 +523,7 @@ body{
 }
 	
 }
-@media (max-width: 568px) {
+@media (max-width: 767px) {
 	.chef img{
 		padding-left: 10px;
 		padding-right: 10px;
