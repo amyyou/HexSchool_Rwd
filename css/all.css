@@ -1012,6 +1012,9 @@ body{
 }
 
 @media (max-width: 568px) {
+	.form_main{
+		width: 100%;
+	}
 	.form_list{
 		flex-direction: column;
 	}
